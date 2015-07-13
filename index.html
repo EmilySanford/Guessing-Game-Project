@@ -14,16 +14,18 @@
 	<div id="box">
 	<h1 id="game-title">Guessing Game</h1>
 	<h2>PICK A NUMBER BETWEEN 1 AND 100</h2>
-	<input type="text" id="number-guess" value="" placeholder="Enter your guess">
-	<h3 id="feedback"> </h3>
-	<button type="button" id="submit-button">Submit Guess20</button>
-	<h3 id="remaining">5 Guesses Remaining<h3>
+	<input type="text" id="number-guess" placeholder="Enter your guess">
+	<h3 id="feedback">May the odds be ever in your favor!</h3>
+	<button type="button" id="submit-button">Submit Guess</button>
+	<h3 id="remaining"><span id="number-of-guesses">5</span> Guesses Remaining<h3>
 	<div class="game-options">
 		<button type="button" id="reset-button">New Game</button>
 		<button type="button" id="hint-button">Get Hint</button>
 	</div>
+	<h4 class="previous">Previous Guesses:</h4>
 	
 	</div>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
