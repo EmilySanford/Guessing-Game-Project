@@ -35,6 +35,13 @@ h3{
 	font-weight: 400;
 }
 
+h4 {
+	display: none;
+	font-family: "Open Sans";
+	font-size: 18px;
+	color: #27E3D0;
+}
+
 #number-guess{
 	font-family: "Open Sans";
 	padding: 5px;
@@ -71,3 +78,31 @@ h3{
 .game-options button:hover{
 	background-color: rgba(0, 0, 0, 0.6);
 }
+
+
+
+.winner {
+	background-image: url("../images/smellycat.jpg");
+	background-size: cover;
+	border: none;
+}
+
+.winner h2 {
+	visibility: hidden;
+}
+
+.winner #number-guess{
+	visibility: hidden;
+}
+
+.winner #feedback{
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.winner #remaining {
+	visibility: hidden;
+}
+
+
+
